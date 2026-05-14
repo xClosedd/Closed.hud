@@ -52,8 +52,8 @@
 		"fieldName"		"EventBonusLabel"
 		"font"			"HudFontMediumSmallBold"
 		"dropshadow"	"1"
-		"xpos"			0
-		"ypos"			0
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"f"
 		"tall"			"0" // default is 20
@@ -249,8 +249,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"42"
-		"tall"			"42"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -268,8 +268,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-100"
-		"wide"			"42"
-		"tall"			"42"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -288,7 +288,7 @@
 		"enabled"				"1"
 		"zpos"					"-400"
 		"xpos"					"0"
-		"ypos"					"25"
+		"ypos"					"-12"
 		"wide"					"150"
 		"tall"					"16"
 		"textAlignment"			"center"
@@ -412,263 +412,263 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon0"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon1"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon1"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon2"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon2"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon3"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon3"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon4"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon4"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon5"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon5"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon6"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon6"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon7"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon7"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon8"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon8"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon9"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon9"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon10"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon10"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon11"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon11"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon12"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon12"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon13"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon13"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon14"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon14"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon15"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon15"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon16"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon16"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon17"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon17"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon18"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon18"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon19"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon19"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon20"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon20"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon21"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon21"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon22"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon22"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon23"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon23"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon24"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon24"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon25"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon25"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon26"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon26"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon27"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon27"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon28"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon28"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon29"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon29"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon30"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon30"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon31"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon31"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 
 	"playericon32"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"playericon32"
-		wide 12
-		tall 12
+		"wide"	 "18"
+		"tall"	 "18"
 	}
 }

@@ -97,7 +97,7 @@
 		"fieldName"				"PlayingToCluster"
 
 		"xpos"					"c-55"
-		"ypos"					"12"
+		"ypos"					"c180"
 		"zpos"					"0"
 
 		"wide"					"110"
@@ -111,7 +111,6 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"pin_to_sibling"	"PlayingToBG"
 
 			"wide"			"110"
 			"tall"			"36"

@@ -1454,5 +1454,160 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+	
+	
+	
+	
+	////////////////////////////////////////////////////////////////////////////////
+	////CLOSEDHUD RANDOM GARBAGE
+	////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+	"speed1"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "speed1"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "-8"
+		"ypos" "0"
+		"zpos" "0"
+		"wide" "11"
+		"tall" "11"
+		
+		"pin_to_sibling"	"speed2"
+
+		"alpha" "255"
+		"image" "replay/thumbnails/speedo_1"
+		"scaleimage" "1"
+	}
+	
+	
+	"speed2"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "speed2"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "-8"
+		"ypos" "0"
+		"zpos" "0"
+		"wide" "11"
+		"tall" "11"
+		
+		"pin_to_sibling"	"speed3"
+
+		"alpha" "255"
+		"image" "replay/thumbnails/speedo_2"
+		"scaleimage" "1"
+	}
+	
+	
+	"speed3"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "speed3"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "-8"
+		"ypos" "0"
+		"zpos" "0"
+		"wide" "11"
+		"tall" "11"
+		
+		"pin_to_sibling"	"speed4"
+
+		"alpha" "255"
+		"image" "replay/thumbnails/speedo_3"
+		"scaleimage" "1"
+	}
+	
+	
+	"speed4"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "speed4"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "c-19"
+		"ypos" "c28"
+		"zpos" "0"
+		"wide" "11"
+		"tall" "11"
+
+		"alpha" "255"
+		"image" "replay/thumbnails/speedo_4"
+		"scaleimage" "1"
+	}
+	
+	
+	
+	
+	//"tempus_speedo_bg"			//CURRENTLY UNUSED, NEED TO FIGURE OUT SPACING AND SUCH
+	//{
+	//	"ControlName"	"ImagePanel"
+	//	"fieldName"		"tempus_speedo_bg"
+	//	"xpos"			"c-16"
+	//	"ypos"			"c50"
+	//	"xpos_minmode"	"9999"
+	//	"ypos_minmode"	"9999"
+	//	"wide"			"36"
+	//	"tall"			"16"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"fillcolor"		"0 0 0 255"
+	//
+	//}
+	//
+	//
+	//"tempus_speedo_outline"
+	//{
+	//	"ControlName"	"ImagePanel"
+	//	"fieldName"		"tempus_speedo_outline"
+	//	"xpos"			"c-17"
+	//	"ypos"			"c49"
+	//	"xpos_minmode"	"9999"
+	//	"ypos_minmode"	"9999"
+	//	"zpos"			"-1"
+	//	"wide"			"38"
+	//	"tall"			"18"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"fillcolor"		"163 210 255 255"
+	//}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
