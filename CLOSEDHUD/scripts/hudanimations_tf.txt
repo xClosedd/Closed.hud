@@ -206,10 +206,8 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
-	Animate PlayerStatusHealthValueBG		fgcolor		"0 100 100 255"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueBG		fgcolor		"53 125 59 255"	Linear 0.0 0.0
 	
 	
 
@@ -228,7 +226,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
 	
-	Animate PlayerStatusHealthValueBG		fgcolor		"black_closedhud"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueBG		fgcolor		"brown_closedhud"	Linear 0.0 0.0
 	
 }
 
@@ -237,10 +235,14 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	//PlayerStatusHealthBonusImage
 	
-	Animate PlayerStatusHealthValueBG		fgcolor		"125 0 0 255"	Linear 0.0 0.0
+	
+	Animate	PlayerStatusHealthValueBG 		Alpha		"255"					Linear 0.0 0.075
+	Animate	PlayerStatusHealthValueBG 		Alpha		"0"						Linear 0.125 0.075
+	Animate PlayerStatusHealthValueBG		fgcolor		"pinkred_closedhud"		Linear 0.0 0.0
+	
+	Animate CuteLittleHealthCross			Alpha		"255"					Linear 0.0 0.0
 	
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
@@ -257,17 +259,34 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
-	Animate PlayerStatusHealthValueBG		fgcolor		"black_closedhud"	Linear 0.0 0.0
-	
-	
+	Animate PlayerStatusHealthValueBG		fgcolor		"brown_closedhud"	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueBG 		Alpha		"255"				Linear 0.0 0.0
+	Animate CuteLittleHealthCross			Alpha		"0"					Linear 0.0 0.0
 }
 
 //===========================================
 
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+
+
+	Animate	AmmoInClipShadow 		Alpha		"255"					Linear 0.0 0.075
+	Animate	AmmoInClipShadow 		Alpha		"0"						Linear 0.125 0.075
+	Animate AmmoInClipShadow		fgcolor		"pinkred_closedhud"		Linear 0.0 0.0
+
+	Animate	AmmoInReserveShadow 		Alpha		"255"					Linear 0.0 0.075
+	Animate	AmmoInReserveShadow 		Alpha		"0"						Linear 0.125 0.075
+	Animate AmmoInReserveShadow			fgcolor		"pinkred_closedhud"		Linear 0.0 0.0
+
+	Animate	AmmoNoClipShadow 		Alpha		"255"					Linear 0.0 0.075
+	Animate	AmmoNoClipShadow 		Alpha		"0"						Linear 0.125 0.075
+	Animate AmmoNoClipShadow		fgcolor		"pinkred_closedhud"		Linear 0.0 0.0
+
+	Animate CuteLittleAmmoCross			Alpha		"255"					Linear 0.0 0.0
+	
+	
+	
+	
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -282,6 +301,23 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
+	
+	
+	Animate AmmoInClipShadow		fgcolor		"brown_closedhud"		Linear 0.0 0.0
+	Animate AmmoInReserveShadow		fgcolor		"brown_closedhud"		Linear 0.0 0.0
+	Animate AmmoNoClipShadow		fgcolor		"brown_closedhud"		Linear 0.0 0.0
+	
+	
+	Animate AmmoInClipShadow			Alpha		"255"				Linear 0.0 0.0
+	Animate AmmoInReserveShadow			Alpha		"255"				Linear 0.0 0.0
+	Animate AmmoNoClipShadow			Alpha		"255"				Linear 0.0 0.0
+	
+	
+	
+	
+	Animate CuteLittleAmmoCross			Alpha		"0"					Linear 0.0 0.0
+	
+	
 }
 
 //===========================================

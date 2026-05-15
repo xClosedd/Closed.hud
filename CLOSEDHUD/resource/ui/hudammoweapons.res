@@ -16,6 +16,8 @@
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"
 	}
+	
+	
 	"HudWeaponLowAmmoImage"		//disabled
 	{
 		"ControlName"	"ImagePanel"
@@ -32,12 +34,14 @@
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"
 	}
+	
+	
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"ComfortaaBold44"
-		"fgcolor"		"lightYellow_closedhud"
+		"fgcolor"		"yellow_closedhud"
 		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -48,13 +52,15 @@
 		"textAlignment"	"south-east"	
 		"labelText"		"%Ammo%"
 		
-	}		
+	}	
+
+	
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"ComfortaaBold44"
-		"fgcolor"		"black_closedhud"
+		"fgcolor"		"brown_closedhud"
 		"xpos"			"6"
 		"ypos"			"2"
 		"zpos"			"5"
@@ -65,13 +71,15 @@
 		"textAlignment"	"south-east"	
 		"labelText"		"%Ammo%"
 		
-	}						
+	}
+
+	
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"font"			"ComfortaaBold18"
-		"fgcolor"		"lightYellow_closedhud"
+		"fgcolor"		"yellow_closedhud"
 		"xpos"			"59"
 		"ypos"			"8"
 		"zpos"			"7"
@@ -82,12 +90,14 @@
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
 	}		
+	
+	
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"ComfortaaBold18"
-		"fgcolor"		"black_closedhud"
+		"fgcolor"		"brown_closedhud"
 		"xpos"			"60"
 		"ypos"			"9"
 		"zpos"			"7"
@@ -97,13 +107,15 @@
 		"enabled"		"1"
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
-	}									
+	}	
+
+	
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
 		"font"			"ComfortaaBold44"
-		"fgcolor"		"lightYellow_closedhud"
+		"fgcolor"		"yellow_closedhud"
 		"xpos"			"0"
 		"ypos"			"2"
 		"zpos"			"5"
@@ -115,12 +127,14 @@
 		"labelText"		"%Ammo%"
 		
 	}	
+	
+	
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"ComfortaaBold44"
-		"fgcolor"		"black_closedhud"
+		"fgcolor"		"brown_closedhud"
 		"xpos"			"2"
 		"ypos"			"4"
 		"zpos"			"5"
@@ -131,5 +145,37 @@
 		"textAlignment"	"south-east"		
 		"labelText"		"%Ammo%"
 		
-	}									
+	}	
+
+
+
+
+
+
+"CuteLittleAmmoCross"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CuteLittleAmmoCross"
+		"xpos"			"80"
+		"ypos"			"7"
+		"zpos"			"2"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/ammo"
+		"alpha" 		"0"
+	}
+
+
+
+
+
+
+
+
+
+
+
+	
 }

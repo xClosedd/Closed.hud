@@ -1463,14 +1463,14 @@
 	////////////////////////////////////////////////////////////////////////////////
 	
 	
-	
+	//disabled
 	
 	"speed1"
 	{
 		"controlName" "CTFImagePanel"
 		"fieldName" "speed1"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"xpos" "-8"
 		"ypos" "0"
 		"zpos" "0"
@@ -1489,8 +1489,8 @@
 	{
 		"controlName" "CTFImagePanel"
 		"fieldName" "speed2"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"xpos" "-8"
 		"ypos" "0"
 		"zpos" "0"
@@ -1509,8 +1509,8 @@
 	{
 		"controlName" "CTFImagePanel"
 		"fieldName" "speed3"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"xpos" "-8"
 		"ypos" "0"
 		"zpos" "0"
@@ -1529,8 +1529,8 @@
 	{
 		"controlName" "CTFImagePanel"
 		"fieldName" "speed4"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"xpos" "c-19"
 		"ypos" "c28"
 		"zpos" "0"

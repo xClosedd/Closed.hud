@@ -6,16 +6,18 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-140"
-		"ypos"			"c50"
+		"ypos"			"c-75"
 		"zpos"			"2"
 		"wide"			"250"
-		"tall"			"120"
+		"tall"			"250"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.70"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
+	
+	
 	"PlayerStatusHealthImage"		//disabled
 	{
 		"ControlName"	"ImagePanel"
@@ -29,40 +31,35 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 	}		
-	"PlayerStatusHealthImageBG"		//disabled
+	
+	"CuteLittleHealthCross"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"ypos"			"33"
-		"zpos"			"3"
-		"wide"			"0"	//was 55
-		"tall"			"0"	//was 55
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CuteLittleHealthCross"
+		"xpos"			"50"
+		"ypos"			"170"
+		"zpos"			"2"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"84"
-		"ypos"			"44"
-		"zpos"			"2"
-		"wide"			"35"
-		"tall"			"35"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"image"			"replay/thumbnails/heart"
+		"alpha" 		"0"
 	}
+	
+	
+	
+	
+	
+
+	
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"-24"
-		"ypos"			"-2"
+		"ypos"			"120"
 		"zpos"			"5"
 		"wide"			"250"
 		"tall"			"120"
@@ -73,12 +70,14 @@
 		"font"			"ComfortaaBold44"
 		"fgcolor"		"yellow_closedhud"
 	}
+	
+	
 	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
 		"xpos"			"-22"
-		"ypos"			"0"
+		"ypos"			"122"
 		"zpos"			"4"
 		"wide"			"250"
 		"tall"			"120"
@@ -87,7 +86,8 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"ComfortaaBold44"
-		"fgcolor"		"black_closedhud"
+		"fgcolor"		"brown_closedhud"
+		"Alpha"			"255"
 	}
 	
 	
@@ -112,6 +112,8 @@
 		"font"			"DefaultSmall"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -127,6 +129,8 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatusHookBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -142,6 +146,8 @@
 		"image"			"../vgui/bleed_drop_grapple"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -157,6 +163,8 @@
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatusGasImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -172,6 +180,8 @@
 		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatusMarkedForDeathImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -187,6 +197,8 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -202,6 +214,8 @@
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -217,6 +231,8 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -232,6 +248,8 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -263,6 +281,8 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -278,6 +298,8 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -311,6 +333,7 @@
 		"fgcolor"		"TanDark"
 	}
 
+
 	"PlayerStatus_SoldierOffenseBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -326,6 +349,7 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
+
 
 	"PlayerStatus_SoldierDefenseBuff"
 	{
@@ -343,6 +367,7 @@
 		"fgcolor"		"TanDark"
 	}
 
+
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -358,6 +383,8 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_SpyMarked"
 	{
 		"ControlName"	"ImagePanel"
@@ -373,6 +400,8 @@
 		"image"			""
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"	"ImagePanel"
@@ -388,6 +417,8 @@
 		"image"			""
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RuneStrength"
 	{
 		"ControlName"	"ImagePanel"
@@ -403,6 +434,8 @@
 		"image"			"../Effects/powerup_strength_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RuneHaste"
 	{
 		"ControlName"	"ImagePanel"
@@ -418,6 +451,8 @@
 		"image"			"../Effects/powerup_haste_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RuneRegen"
 	{
 		"ControlName"	"ImagePanel"
@@ -433,6 +468,8 @@
 		"image"			"../Effects/powerup_regen_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RuneResist"
 	{
 		"ControlName"	"ImagePanel"
@@ -448,6 +485,8 @@
 		"image"			"../Effects/powerup_resist_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RuneVampire"
 	{
 		"ControlName"	"ImagePanel"
@@ -463,6 +502,8 @@
 		"image"			"../Effects/powerup_vampire_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"	"ImagePanel"
@@ -478,6 +519,8 @@
 		"image"			"../Effects/powerup_reflect_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RunePrecision"
 	{
 		"ControlName"	"ImagePanel"
@@ -493,6 +536,8 @@
 		"image"			"../Effects/powerup_precision_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RuneAgility"
 	{
 		"ControlName"	"ImagePanel"
@@ -508,6 +553,8 @@
 		"image"			"../Effects/powerup_agility_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RuneKnockout"
 	{
 		"ControlName"	"ImagePanel"
@@ -523,6 +570,8 @@
 		"image"			"../Effects/powerup_knockout_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RuneKing"
 	{
 		"ControlName"	"ImagePanel"
@@ -538,6 +587,8 @@
 		"image"			"../Effects/powerup_king_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RunePlague"
 	{
 		"ControlName"	"ImagePanel"
@@ -553,6 +604,8 @@
 		"image"			"../Effects/powerup_plague_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatus_RuneSupernova"
 	{
 		"ControlName"	"ImagePanel"
@@ -568,6 +621,8 @@
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
 	}
+	
+	
 	"PlayerStatusSlowed"
 	{
 		"ControlName"	"ImagePanel"
